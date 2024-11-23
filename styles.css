@@ -3,9 +3,18 @@ body {
 }
 
 header {
-    background-color: #f8f9fa;
-    padding: 50px 0;
-    margin-bottom: 30px;
+    background: linear-gradient(to right, #007bff, #6c757d);
+    color: white;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
 }
 
 #about, #resources, #suscribe {
